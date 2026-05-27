@@ -1,0 +1,17 @@
+.companies {
+    text-align: center;
+    padding: 50px;
+    background-color: #000;
+    color: #fff;
+}
+
+.company-logos {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.company-logos span {
+    font-size: 20px;
+}

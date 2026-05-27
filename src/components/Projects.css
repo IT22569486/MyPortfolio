@@ -1,0 +1,26 @@
+.projects {
+    padding: 50px;
+    background-color: #000;
+    text-align: center;
+}
+
+.projects h2 {
+    margin-bottom: 40px;
+}
+
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    text-align: left;
+}
+
+.project-card {
+    background-color: #111;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.project-card h3 {
+    margin-top: 0;
+}
